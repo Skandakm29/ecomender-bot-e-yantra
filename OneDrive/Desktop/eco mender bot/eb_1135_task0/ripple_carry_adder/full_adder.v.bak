@@ -1,0 +1,9 @@
+module full_adder (
+    input a, b, c_in, // Define input ports a, b and c_in
+    output sum , c_out // Define output ports sum and c_out
+);
+
+assign sum = a ^ b ^ cin;// Define Sum logic
+assign c_out = (a & b) | (b & cin)  | (cin & a); // Define Carry Logic
+
+endmodule

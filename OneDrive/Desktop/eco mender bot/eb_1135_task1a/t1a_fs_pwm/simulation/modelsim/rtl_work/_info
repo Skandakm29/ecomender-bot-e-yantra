@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/simulation/modelsim
+vfrequency_scaler
+Z1 !s110 1728234742
+!i10b 1
+!s100 =d0@dze8iXG6FYCo[A>BN0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I96bhBNA1:FgOA9En4kG=S1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1728234640
+8C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/frequency_scaler.v
+FC:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/frequency_scaler.v
+!i122 1
+L0 24 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1728234742.000000
+!s107 C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/frequency_scaler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code|C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/frequency_scaler.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code
+Z8 tCvgOpt 0
+vpwm_generator
+R1
+!i10b 1
+!s100 4zTjUc=JWZO_H>[m^Y1U93
+R2
+IMb?jcJT?AB:H?hG9mo0Ei3
+R3
+R0
+w1728234708
+8C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/pwm_generator.v
+FC:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/pwm_generator.v
+!i122 0
+L0 26 54
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/pwm_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code|C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/pwm_generator.v|
+!i113 1
+R6
+R7
+R8
+vt1a_fs_pwm_bdf
+R1
+!i10b 1
+!s100 N55G1R3Ad?6F7YnJ;STQ]3
+R2
+I@a8>X>X^ClQD=[o;E_Wc12
+R3
+R0
+w1727630775
+8C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v
+FC:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v
+!i122 2
+L0 23 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code|C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/code/t1a_fs_pwm_bdf.v|
+!i113 1
+R6
+R7
+R8
+vtb
+R1
+!i10b 1
+!s100 =jSl53o6MIUkOM41K5DW53
+R2
+I5FIG94>16]8@b1@jHGYeQ2
+R3
+R0
+w1726554045
+8C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test/tb.v
+FC:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test/tb.v
+!i122 3
+L0 4 97
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test|C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test/tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task1a/t1a_fs_pwm/.test
+R8

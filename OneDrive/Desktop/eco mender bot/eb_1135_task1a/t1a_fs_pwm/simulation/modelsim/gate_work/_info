@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/simulation/modelsim
+vhard_block
+Z1 !s110 1727620134
+!i10b 1
+!s100 ;doD7mPzi1ZS=EaQ3XZZ62
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?zN;G]jjONlz::Ao5O=8Z2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1727620062
+Z5 8t1a_fs_pwm.vo
+Z6 Ft1a_fs_pwm.vo
+!i122 0
+L0 2147 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1727620134.000000
+Z9 !s107 t1a_fs_pwm.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|t1a_fs_pwm.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vt1a_fs_pwm_bdf
+R1
+!i10b 1
+!s100 cZC9:J71zTQfoiQ1hOg7K2
+R2
+I`bOS4:m0JGbE2bf]b2^NS2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 2114
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vtb
+!s110 1727620135
+!i10b 1
+!s100 =jSl53o6MIUkOM41K5DW53
+R2
+I[i@VRLbZ392L9F8gLQARQ3
+R3
+R0
+w1726554045
+8C:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test/tb.v
+FC:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test/tb.v
+!i122 1
+L0 4 97
+R7
+r1
+!s85 0
+31
+!s108 1727620135.000000
+!s107 C:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test|C:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test/tb.v|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+C:/Users/skand/Downloads/t1a_fs_pwm/t1a_fs_pwm/.test
+R13

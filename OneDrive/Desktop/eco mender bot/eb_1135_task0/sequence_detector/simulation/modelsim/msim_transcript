@@ -1,0 +1,54 @@
+# Reading pref.tcl
+# do sequence_detector_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector {C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/sequence_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:32 on Sep 13,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector" C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/sequence_detector.v 
+# -- Compiling module sequence_detector
+# 
+# Top level modules:
+# 	sequence_detector
+# End time: 18:20:32 on Sep 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/simulation/modelsim {C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/simulation/modelsim/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:32 on Sep 13,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/simulation/modelsim" C:/Users/skand/OneDrive/Desktop/eb_1135_task0/sequence_detector/simulation/modelsim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:20:32 on Sep 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 18:20:32 on Sep 13,2024
+# Loading work.tb
+# Loading work.sequence_detector
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: skand  Hostname: SKANDA  ProcessID: 3868
+#           Attempting to use alternate WLF file "./wlftfzi0d9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfzi0d9
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 4000 ps
+# No errors encountered, congratulations!
+# End time: 18:36:35 on Sep 13,2024, Elapsed time: 0:16:03
+# Errors: 0, Warnings: 2

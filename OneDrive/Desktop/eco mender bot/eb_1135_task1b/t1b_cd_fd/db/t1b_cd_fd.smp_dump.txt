@@ -1,0 +1,7 @@
+
+State Machine - |t1b_cd_fd|next_filter
+Name next_filter.ST_0 next_filter.ST_2 next_filter.ST_1 next_filter.ST_3 
+next_filter.ST_3 0 0 0 0 
+next_filter.ST_1 0 0 1 1 
+next_filter.ST_2 0 1 0 1 
+next_filter.ST_0 1 0 0 1 

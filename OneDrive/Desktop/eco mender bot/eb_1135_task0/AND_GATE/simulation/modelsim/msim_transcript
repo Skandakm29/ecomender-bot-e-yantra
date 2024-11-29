@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# do and_gate_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE {C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/and_gate.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:57:15 on Sep 13,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE" C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/and_gate.v 
+# -- Compiling module and_gate
+# 
+# Top level modules:
+# 	and_gate
+# End time: 17:57:15 on Sep 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE {C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/and_gate_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:57:15 on Sep 13,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE" C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/and_gate_test_bench.v 
+# -- Compiling module AND_GATE_test_bench
+# 
+# Top level modules:
+# 	AND_GATE_test_bench
+# End time: 17:57:15 on Sep 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  and_gate_test_bench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" and_gate_test_bench 
+# Start time: 17:57:16 on Sep 13,2024
+# ** Error: (vsim-3170) Could not find 'and_gate_test_bench'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/simulation/modelsim/rtl_work
+#             C:/Users/skand/OneDrive/Desktop/eb_1135_task0/AND_GATE/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./and_gate_run_msim_rtl_verilog.do PAUSED at line 12
+# End time: 17:58:16 on Sep 13,2024, Elapsed time: 0:01:00
+# Errors: 1, Warnings: 0
